@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.tide.utilities.Listeners"/>
+    <listener class-name="com.tide.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.tide.pageobject.ShoProductPage">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="navigateToShop"/>
+        </methods>
+      </class> <!-- com.tide.pageobject.ShoProductPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
